@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <title>ATIVIDADE</title>
+</head>
+<body>
+<table>
+    <caption>Sorveteria do Zé</caption>
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço(R$)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A</td>
+            <td>Refrigerante</td>
+            <td>3,50</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Casquinha Simples</td>
+            <td>4,00</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Casquinha Dupla</td>
+            <td>5,00</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Sundae</td>
+            <td>6,00</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>Banana Split</td>
+            <td>8,50</td>
+        </tr>
+    </tbody>
+</table>
+<div id="botao">
+    <button onclick="comprar()">Comprar</button>
+</div>
+
+</body>
+<style>
+    table, td, th { 
+        border-collapse: separate;
+        border: 1px solid black;
+        margin:auto;
+    }
+    tbody tr:hover {
+        background-color: #dedede; 
+    }
+    thead {
+        background-color: rgb(203, 241, 145);
+    }
+    caption {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    th, td {
+        padding: 10px;
+    }
+    button {
+        padding: 20px;
+    }
+    #botao {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+</style>
+</html>
